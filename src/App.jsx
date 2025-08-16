@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/navbar";
+
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Home from "./pages/home";
 import Clothes from "./pages/Clothes";
@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Login from "./components/Login";
 import Profile from "./components/Profile";
+import Navbar from "./components/Navbar";
 
 const App = () => {
 
