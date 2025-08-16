@@ -55,7 +55,7 @@ const Navbar = () => {
                 src={session?.user?.user_metadata?.avatar_url}
                 alt=""
                 className="rounded-full"
-                onClick={() => setOpenProfile(false)}
+                onClick={() => setOpenProfile(true)}
               />
             </button>
           ) : (
@@ -98,7 +98,7 @@ const Navbar = () => {
           <div className="flex justify-end">
           <IoIosCloseCircle
             className="text-2xl text-red-700"
-            onClick={() => setOpenProfile(true)}
+            onClick={() => setOpenProfile(false)}
           />
         </div>
         <Profile />
