@@ -37,7 +37,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="md:mx-12 my-9 mx-7">
+    <div className="md:mx-12 my-9 mx-4">
       <Slider {...settings}>
         {banners.map((banner) => (
           <div>
@@ -45,7 +45,7 @@ const Home = () => {
               key={banner.id}
               src={banner.file_name} // 👈 direct from table
               alt={banner.title}
-              className="w-full md:h-[400px] md:object-cover rounded-lg shadow h-[100px] object-contain"
+              className="w-full md:h-[400px] md:object-cover rounded-lg shadow h-[250px] object-cover object-center"
             />
           </div>
         ))}
